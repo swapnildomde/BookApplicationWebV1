@@ -8,15 +8,12 @@ import java.util.UUID;
  * @version 		: 1.1
  * @description     : use to handle book object
  * 
- * 
- * 
+ *  
  */
 public class Book {
 	private UUID bookId;
 	private String bookName;
 	private List<Author> listAutor;
-
-	
 
 	
 	/**

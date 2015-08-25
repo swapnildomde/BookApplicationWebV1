@@ -14,6 +14,7 @@ public class Author {
 	 * @param name
 	 * @param phone
 	 * @param address
+	 * use to set value
 	 */
 	public Author(UUID authorId, String name, String phone, String address) {
 		super();
@@ -21,7 +22,7 @@ public class Author {
 		this.name = name;
 		this.phone = phone;
 		this.address = address;
-	}
+	}  
 
 
 	/**
