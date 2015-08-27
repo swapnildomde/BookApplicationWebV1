@@ -4,20 +4,9 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <spring:url value="/resources/css/main.css" var="mainCss" />
-	<spring:url value="/resources/js/jquery.1.10.2.min.js" var="jqueryJs" />
-	<spring:url value="/resources/js/main.js" var="mainJs" />
-
-    <title>Bootstrap 3, from LayoutIt!</title>
-
+    <title>Login page</title>
     <meta name="description" content="Source code generated using layoutit.com">
     <meta name="author" content="LayoutIt!">
-    
-<!--     <script type="text/javascript" -->
-<%--     src="<c:url value='/resources/css/bootstrap.min.css'/>"> </script> --%>
-
-<%--     <link href="<c:url value='/resources/css/bootstrap.min.css'/>" rel="stylesheet"> --%>
-<%--     <link href="<c:url value='/resources/css/style.css'/>" rel="stylesheet"> --%>
     <link href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css" rel="stylesheet">
     <link href="${pageContext.request.contextPath}/resources/css/style.css" rel="stylesheet">
 
@@ -34,11 +23,11 @@
 			<form class="form-horizontal" role="form">
 				<div class="form-group">
 					 
-					<label for="email" class="col-sm-2 control-label">
+					<label for="labelEmail" class="col-sm-2 control-label">
 						Email
 					</label>
 					<div class="col-sm-10">
-						<input class="form-control" id="inputEmail3" type="email" />
+						<input class="form-control" id="emailId" type="email"  />
 					</div>
 				</div>
 				<div class="form-group">
@@ -65,6 +54,9 @@
 						 
 						<button type="submit" class="btn btn-default">
 							Sign in
+						</button>
+						<button type="reset" class="btn btn-default">
+							clear
 						</button>
 					</div>
 				</div>
